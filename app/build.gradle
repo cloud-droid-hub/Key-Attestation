@@ -29,6 +29,7 @@ def localesFile = file("locales.txt")
 def supportedLocales = localesFile.readLines().findAll { it && !it.startsWith("#") }
 
 android {
+    ndkVersion '29.0.14206865'
     compileSdk = 35
     buildToolsVersion = '35.0.1'
     namespace = 'io.github.vvb2060.keyattestation'
