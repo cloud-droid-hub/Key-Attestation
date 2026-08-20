@@ -56,12 +56,23 @@
     <string name="provisioning_info_manufacturer">produttore: </string>
     <string name="revocation_list_publish_time">Data di pubblicazione dell\'elenco di revoca</string>
     <string name="revocation_list_description">L\'elenco di revoca viene utilizzato per verificare se i certificati sono stati revocati. Mostra l\'ora di pubblicazione dell\'elenco di revoca attualmente in uso.</string>
+    <string name="revocation_list_save">Salva</string>
+    <string name="revocation_list_save_unavailable">Connettiti a Internet almeno una volta per scaricare l\'elenco CRL prima di salvare</string>
+    <string name="revocation_list_save_success">Salvato</string>
+    <string name="revocation_list_save_failed">Non salvato</string>
     
     <string name="revocation_status_initial">⚙️ Elenco iniziale scaricato</string>
     <string name="revocation_status_new_fetch">✨ Nuovo elenco scaricato!</string>
     <string name="revocation_status_up_to_date">✅ CRL aggiornata</string>
     <string name="revocation_status_offline_cached">⚠️ Dispositivo offline - CRL in cache</string>
     <string name="revocation_status_offline_bundled">❌ Offline - CRL non aggiornata</string>
+
+	<string name="error_attest_rsa_key_ec_only">Nessuna catena di certificati RSA</string>
+    <string name="error_attest_rsa_key_ec_only_summary"><![CDATA[Il file contiene solo la catena di certificati EC.<br><br>Per visualizzarla, disabilita Attesta chiave RSA.]]></string>
+    <string name="error_attest_ec_key_rsa_only">Nessuna catena di certificati EC</string>
+    <string name="error_attest_ec_key_rsa_only_summary"><![CDATA[Il file contiene solo la catena di certificati RSA.<br><br>Per visualizzarla, abilita Attesta chiave RSA.]]></string>
+    <string name="error_invalid_file">Impossibile analizzare il file</string>
+    <string name="error_invalid_file_summary"><![CDATA[Possibili motivi:<br><br>• File danneggiato o manomesso<br><br>• Potrebbe contenere caratteri non validi<br><br>• Formato di file non supportato]]></string>
 
     <string name="error_message_subtitle">Messaggi dettagliati:</string>
     <string name="error_unknown">Errore sconosciuto</string>
@@ -180,7 +191,7 @@
     <string name="authorization_list_origin">Origine</string>
     <string name="authorization_list_rollbackResistant">Resistente al rollback</string>
     <string name="authorization_list_rootOfTrust">Root of trust</string>
-    <string name="copied_verifiedBootHash_to_clipboard">verifiedBootHash copiato negli appunti!</string>
+    <string name="copied_to_clipboard">Copiato negli appunti!</string>
     <string name="authorization_list_osVersion">Versione OS</string>
     <string name="authorization_list_osPatchLevel">Livello patch OS</string>
     <string name="authorization_list_attestationApplicationId">ID app</string>

@@ -56,12 +56,23 @@
     <string name="provisioning_info_manufacturer">виробник: </string>
     <string name="revocation_list_publish_time">Час публікації списку відкликань</string>
     <string name="revocation_list_description">Список відкликань використовується для перевірки, чи були сертифікати відкликані. Тут показано час публікації списку відкликань, який наразі використовується.</string>
+    <string name="revocation_list_save">Зберегти</string>
+    <string name="revocation_list_save_unavailable">Підключіться до Інтернету принаймні один раз, щоб завантажити список CRL перед збереженням</string>
+	<string name="revocation_list_save_success">Збережено</string>
+    <string name="revocation_list_save_failed">Не збережено</string>
 
     <string name="revocation_status_initial">⚙️ Початковий список завантажено</string>
     <string name="revocation_status_new_fetch">✨ Отримано новий список!</string>
     <string name="revocation_status_up_to_date">✅ CRL актуальний</string>
     <string name="revocation_status_offline_cached">⚠️ Пристрій офлайн — використовується кешований CRL</string>
     <string name="revocation_status_offline_bundled">❌ Офлайн — CRL застарілий</string>
+
+	<string name="error_attest_rsa_key_ec_only">Немає ланцюжка сертифікатів RSA</string>
+    <string name="error_attest_rsa_key_ec_only_summary"><![CDATA[Файл містить лише ланцюжок сертифікатів EC.<br><br>Щоб переглянути, вимкніть Атестувати ключ RSA.]]></string>
+    <string name="error_attest_ec_key_rsa_only">Немає ланцюжка сертифікатів EC</string>
+    <string name="error_attest_ec_key_rsa_only_summary"><![CDATA[Файл містить лише ланцюжок сертифікатів RSA.<br><br>Щоб переглянути, увімкніть Атестувати ключ RSA.]]></string>
+    <string name="error_invalid_file">Не вдалося проаналізувати файл</string>
+    <string name="error_invalid_file_summary"><![CDATA[Можливі причини:<br><br>• Файл пошкоджено або змінено<br><br>• Може містити неприпустимі символи<br><br>• Формат файлу не підтримується]]></string>
 
     <string name="error_message_subtitle">Детальні повідомлення:</string>
     <string name="error_unknown">Невідома помилка</string>
@@ -180,7 +191,7 @@
     <string name="authorization_list_origin">Походження</string>
     <string name="authorization_list_rollbackResistant">Стійкий до відкату</string>
     <string name="authorization_list_rootOfTrust">Корінь довіри</string>
-    <string name="copied_verifiedBootHash_to_clipboard">Скопійовано verifiedBootHash до буфера обміну!</string>
+    <string name="copied_to_clipboard">Скопійовано до буфера обміну!</string>
     <string name="authorization_list_osVersion">Версія ОС</string>
     <string name="authorization_list_osPatchLevel">Рівень патча ОС</string>
     <string name="authorization_list_attestationApplicationId">ID додатка атестації</string>

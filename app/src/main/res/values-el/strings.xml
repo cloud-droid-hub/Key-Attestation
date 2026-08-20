@@ -56,12 +56,23 @@
     <string name="provisioning_info_manufacturer">κατασκευαστής: </string>
     <string name="revocation_list_publish_time">Ώρα δημοσίευσης λίστας ανάκλησης</string>
     <string name="revocation_list_description">Η λίστα ανάκλησης χρησιμοποιείται για να ελεγχθεί εάν έχουν ανακληθεί πιστοποιητικά. Αυτή δείχνει την ώρα δημοσίευσης της λίστας ανάκλησης που χρησιμοποιείται αυτήν τη στιγμή.</string>
+	<string name="revocation_list_save">Αποθήκευση</string>
+	<string name="revocation_list_save_unavailable">Συνδεθείτε στο διαδίκτυο τουλάχιστον μία φορά για να ληφθεί η λίστα CRL πριν την αποθηκεύσετε</string>
+	<string name="revocation_list_save_success">Αποθηκεύτηκε</string>
+	<string name="revocation_list_save_failed">Δεν αποθηκεύτηκε</string>
 
     <string name="revocation_status_initial">⚙️ Αρχική λίστα ελήφθη</string>
     <string name="revocation_status_new_fetch">✨ Ελήφθη νέα λίστα!</string>
     <string name="revocation_status_up_to_date">✅ Ενημερωμένη CRL</string>
     <string name="revocation_status_offline_cached">⚠️ Συσκευή εκτός σύνδεσης - χρήση αποθηκευμένης CRL</string>
     <string name="revocation_status_offline_bundled">❌ Εκτός σύνδεσης - Μη ενημερωμένη CRL</string>
+
+    <string name="error_attest_rsa_key_ec_only">Δεν υπάρχει αλυσίδα πιστοποιητικών RSA</string>
+    <string name="error_attest_rsa_key_ec_only_summary"><![CDATA[Το αρχείο περιέχει μόνο την αλυσίδα πιστοποιητικών EC.<br><br>Για εμφάνιση, απενεργοποιήστε την Βεβαίωση κλειδιού RSA.]]></string>
+    <string name="error_attest_ec_key_rsa_only">Δεν υπάρχει αλυσίδα πιστοποιητικών EC</string>
+	<string name="error_attest_ec_key_rsa_only_summary"><![CDATA[Το αρχείο περιέχει μόνο την αλυσίδα πιστοποιητικών RSA.<br><br>Για εμφάνιση, ενεργοποιήστε την Βεβαίωση κλειδιού RSA.]]></string>
+	<string name="error_invalid_file">Μη δυνατή ανάλυση αρχείου</string>
+	<string name="error_invalid_file_summary"><![CDATA[Πιθανοί λόγοι:<br><br>• Το αρχείο έχει καταστραφεί ή παραποιηθεί<br><br>• Μπορεί να περιέχει μη έγκυρους χαρακτήρες<br><br>• Μη υποστηριζόμενη μορφή]]></string>
 
     <string name="error_message_subtitle">Αναλυτικά μηνύματα:</string>
     <string name="error_unknown">Άγνωστο σφάλμα</string>
@@ -180,7 +191,7 @@
     <string name="authorization_list_origin">Προέλευση</string>
     <string name="authorization_list_rollbackResistant">Αντίσταση ανατροπής</string>
     <string name="authorization_list_rootOfTrust">Ρίζα εμπιστοσύνης</string>
-    <string name="copied_verifiedBootHash_to_clipboard">Το verifiedBootHash αντιγράφηκε στο πρόχειρο!</string>
+    <string name="copied_to_clipboard">Αντιγράφηκε στο πρόχειρο!</string>
     <string name="authorization_list_osVersion">Έκδοση OS</string>
     <string name="authorization_list_osPatchLevel">Επίπεδο ενημέρωσης κώδικα OS</string>
     <string name="authorization_list_attestationApplicationId">Αναγνωριστικό Εφαρμογής</string>

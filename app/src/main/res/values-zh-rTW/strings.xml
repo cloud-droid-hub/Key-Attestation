@@ -56,12 +56,23 @@
     <string name="provisioning_info_manufacturer">製造商：</string>
     <string name="revocation_list_publish_time">撤銷清單發布時間</string>
     <string name="revocation_list_description">撤銷清單用於檢查憑證是否已被撤銷。此處顯示目前使用中的撤銷清單發布時間。</string>
+	<string name="revocation_list_save">儲存</string>
+    <string name="revocation_list_save_unavailable">請至少連線至網際網路一次，以便在儲存前下載 CRL 清單</string>
+	<string name="revocation_list_save_success">已儲存</string>
+    <string name="revocation_list_save_failed">未儲存</string>
 
     <string name="revocation_status_initial">⚙️ 已下載初始清單</string>
     <string name="revocation_status_new_fetch">✨ 已取得新清單!</string>
     <string name="revocation_status_up_to_date">✅ CRL 為最新狀態</string>
     <string name="revocation_status_offline_cached">⚠️ 裝置離線 - 使用快取的 CRL</string>
     <string name="revocation_status_offline_bundled">❌ 離線 - CRL 已過期</string>
+
+	<string name="error_attest_rsa_key_ec_only">無 RSA 憑證鍊</string>
+    <string name="error_attest_rsa_key_ec_only_summary"><![CDATA[該檔案僅包含 EC 憑證鍊。<br><br>若要顯示，請停用認證 RSA 金鑰。]]></string>
+    <string name="error_attest_ec_key_rsa_only">無 EC 憑證鍊</string>
+    <string name="error_attest_ec_key_rsa_only_summary"><![CDATA[該檔案僅包含 RSA 憑證鍊。<br><br>若要顯示，請啟用認證 RSA 金鑰。]]></string>
+    <string name="error_invalid_file">無法解析檔案</string>
+    <string name="error_invalid_file_summary"><![CDATA[可能的原因：<br><br>• 檔案已毀損或遭篡改<br><br>• 可能包含無效字元<br><br>• 不支援的檔案格式]]></string>
 
     <string name="error_message_subtitle">詳細資訊：</string>
     <string name="error_unknown">未知錯誤</string>
